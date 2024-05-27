@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;400;500&family=Fira+Sans:wght@300&family=Gowun+Dodum&family=Protest+Riot&family=Rubik+Scribble&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
 body{
-    font-family: "Teachers", sans-serif;
+    font-family:    "Teachers", sans-serif;
     background-color: #9DDE8B;
     color: white;
 }
@@ -48,10 +48,14 @@ nav ul li a {
     font-size: 17px;
     text-transform: uppercase;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
   }
+
+@media (max-width: 858px) {
+
 
     .nav-ul {
         position: fixed;
@@ -225,14 +229,7 @@ footer h1{
 form{
     color: #1b490e;
 }
-.shark_contact{
-    padding: 30px;
-}
-.shark_contact h1{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
+
 #my-form {
     max-width: 400px;
     margin: 0 auto; 
