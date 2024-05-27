@@ -48,26 +48,10 @@ nav ul li a {
     font-size: 17px;
     text-transform: uppercase;
 }
-
-.checkbtn {
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
-    display: none;
-}
-
-#check {
-    display: none;
-}
 .logo-container {
     display: flex;
     align-items: center;
   }
-
-@media (max-width: 858px) {
-    .checkbtn {
-        display: block;
-    }
 
     .nav-ul {
         position: fixed;
