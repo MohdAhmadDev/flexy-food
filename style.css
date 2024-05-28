@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;400;500&family=Fira+Sans:wght@300&family=Gowun+Dodum&family=Protest+Riot&family=Rubik+Scribble&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
-
+    
 body{
     font-family:    "Teachers", sans-serif;
     background-color: #9DDE8B;
@@ -48,15 +48,14 @@ nav ul li a {
     font-size: 17px;
     text-transform: uppercase;
 }
-
+/* 
 .logo-container {
     display: flex;
     align-items: center;
-  }
+  } */
 
-@media (max-width: 858px) {
-
-
+/* @media (max-width: 858px) {
+    
     .nav-ul {
         position: fixed;
         width: 100%;
@@ -101,7 +100,7 @@ nav ul li a {
       label.logo img{
         margin-left: 0px;
     }
-}
+} */
 
 /* navbar css end */
 
